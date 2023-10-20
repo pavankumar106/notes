@@ -14,3 +14,5 @@
 12. Explain the difference between div and span tags.
 13. What is a hyperlink in HTML?
 
+# CSS
+1. [35 q&A from javatpoint](https://www.javatpoint.com/css-interview-questions)
