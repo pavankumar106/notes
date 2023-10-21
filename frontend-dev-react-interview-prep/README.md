@@ -16,3 +16,8 @@
 
 # CSS
 1. [35 q&A from javatpoint](https://www.javatpoint.com/css-interview-questions)
+
+
+# JavaScript
+1. [JS Tutorial](https://www.w3schools.com/js/)
+2. [Interview q&a](https://github.com/sudheerj/javascript-interview-questions)
