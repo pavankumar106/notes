@@ -21,3 +21,7 @@
 # JavaScript
 1. [JS Tutorial](https://www.w3schools.com/js/)
 2. [Interview q&a](https://github.com/sudheerj/javascript-interview-questions)
+
+# OOP's
+# IMP Questions
+# DSA
