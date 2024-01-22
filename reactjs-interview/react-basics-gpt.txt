@@ -1,0 +1,45 @@
+Q:What is React?
+Answer: React is a JavaScript library for building user interfaces. It allows developers to create reusable
+UI components that manage their own state and efficiently update when the state changes.
+
+What is JSX?
+Answer: JSX (JavaScript XML) is a syntax extension for JavaScript recommended by React. 
+It allows you to write HTML elements and components in a syntax that looks similar to XML or HTML, and these can be compiled to regular JavaScript.
+
+Explain the virtual DOM in React.
+Answer: The virtual DOM is a lightweight in-memory representation of the real DOM elements. 
+React uses it to improve performance by minimizing direct manipulation of the actual DOM. 
+Changes are first made to the virtual DOM, and then React calculates the most efficient way to update the real DOM, 
+reducing unnecessary re-rendering.
+
+What is a React component?
+Answer: A React component is a reusable, self-contained piece of UI that can be composed together to build larger applications. 
+Components can be either functional or class-based, and they manage their own state, properties, and lifecycle.
+
+What is the difference between a functional component and a class component?
+Answer: Functional components are simpler, stateless components that are purely based on input props and return rendered JSX. 
+Class components, on the other hand, can manage their own local state and have access to lifecycle methods.
+
+Explain the concept of state in React.
+Answer: State in React represents the mutable data that can change over time. It is managed by the component itself and can be updated using setState(). 
+When state changes, React re-renders the component to reflect the updated state.
+
+What are props in React?
+Answer: Props (short for properties) are a way to pass data from a parent component to a child component in React. 
+They are immutable and provide a mechanism for components to communicate and share information.
+               
+What is the significance of the key attribute in React lists?
+Answer: The key attribute is used to provide a stable identity to list items during rendering. 
+It helps React identify which items have changed, been added, or been removed. Keys should be unique among siblings, but don't need to be globally unique.
+
+Explain the concept of lifting state up.
+Answer: Lifting state up is the process of moving the state from a child component to its parent component. 
+This allows multiple child components to share the same state, ensuring consistency and making it easier to manage and update the state.
+
+What is the significance of shouldComponentUpdate method?
+Answer: shouldComponentUpdate is a lifecycle method in class components that allows the developer to optimize performance by preventing unnecessary re-rendering. 
+By default, the method returns true, but it can be implemented to compare current and next props and state to decide if a re-render is necessary.
+
+
+
+//END
