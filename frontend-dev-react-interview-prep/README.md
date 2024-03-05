@@ -75,3 +75,5 @@
 38. What is the purpose of the data- attribute in HTML?
 39. Describe the difference between innerHTML and textContent.
 40. How do you handle asynchronous code in JavaScript?
+41. Explain frontend design for multi user 
+    
