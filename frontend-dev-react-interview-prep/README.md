@@ -77,3 +77,8 @@
 40. How do you handle asynchronous code in JavaScript?
 41. Explain frontend design for multi user 
     
+1. what are semantic tags in html and what are its uses and give example
+2. difference between tags and elements in html
+3. what are attributes in tags
+4. difference between div tag and span tag
+5. can we give height and width for inline elements 
