@@ -81,4 +81,12 @@
 2. difference between tags and elements in html
 3. what are attributes in tags
 4. difference between div tag and span tag
-5. can we give height and width for inline elements 
+5. can we give height and width for inline elements
+6. local storage vs session storage vs cookie
+7. Explain folder structure you used
+8. state vs props
+9. useMemo vs useContext
+10. what is redux and how it works
+11. Diff btw type and interface in typescript
+12. Differentiate map and forEach with example
+13. What is this keyword and explain it with an example
