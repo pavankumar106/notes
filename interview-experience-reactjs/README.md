@@ -1,12 +1,12 @@
 ### 1. How do you make HTML accessible to screen readers
 
-```
+```md
 We can use role, aria-label, aria attributes, sematic tags
 ```
 
 ### 2. A UL elemet with 10k items. Page is lagging. What can we do without using backend pagination
 
-```
+```md
 - we can use lazy rendering
 - virtualization: render only items that are visible and dont add other elemtns to DOM
 -
@@ -14,7 +14,7 @@ We can use role, aria-label, aria attributes, sematic tags
 
 ### 3. We have sticky header that should stay on top when scrolling. Sometimes it flickers or overlaps when new elements render? Whats happening here
 
-```
+```md
 Sticky positioning relies on layout stability. When the DOM changes during scroll—due to re-renders, height changes, or stacking context issues—the browser briefly recalculates the sticky offset, which causes flicker or overlap.
 
 Sticky headers flicker when layout changes during scroll. Fix it by stabilizing height, avoiding overflow/transform on parents, reserving space, and preventing unnecessary re-renders.”
@@ -41,9 +41,8 @@ JSON.parse(JSON.stringify()) is a lossy serialization trick that drops or conver
 
 ### 7. You have a function that returns a promise but sometime it rejects due to network error we just want to retry automatically whenever it fails. How do we do this with exponential backoff.
 
-```
+```md
 Wrap the async function in a retry loop that doubles the delay after each failure, adds jitter to avoid retry storms, and stops after a max retry count.”
-
 ```
 
 ```javascript
@@ -60,7 +59,7 @@ async function retry(fn, n = 3, delay = 100) {
 
 ### 8. What debouncing an throttle
 
-```
+```md
 Debouncing:
 Debouncing delays function execution until after a specified time has passed since the last event.
 “Wait until the user stops doing something.”
@@ -76,3 +75,20 @@ Throttling ensures a function runs at most once every specified interval, no mat
 Effect cleanup runs before re-running an effect or on unmount.
 useEffect cleanup runs after paint and is non-blocking, while useLayoutEffect cleanup runs synchronously before paint to prevent visual inconsistencies.
 ```
+
+### 10. A component is rendering everytime its parent rendered even if the component state is not changed? How do you fix this
+
+```md
+In React, children re-render when their parent re-renders by default.
+To fix unnecessary re-renders, wrap the child with React.memo and ensure props are referentially stable using useCallback and useMemo. Also, isolate state so unrelated updates don’t propagate.
+```
+
+### 11. What are server compoenet and client components
+
+### 12. Implement a custom hook for local storage. Which will take key and intial value and that will sync state with local storage
+
+### 13. A react dashboard has slow inital load even though bundle size seems fine. Whtas your debug approach?
+
+## Scenario based Questiomns
+
+### 1. Your react app suddenly becomes slow after adding a feature. How do you find the issue and fix
