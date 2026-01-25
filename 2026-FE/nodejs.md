@@ -115,3 +115,79 @@ Authentication is the process of verifying the identity of a user or system. In 
 
 - OAuth is a protocol for authorization, often used for third-party access (like logging in with Google or Facebook).
 - It allows users to grant limited access to their resources without sharing passwords.
+
+## 5. What are WebSockets, and when would you use them?
+
+WebSockets are a communication protocol that allows: Persistent, two-way (bi-directional) communication between a client (browser/app) and a server.
+
+Once the connection is established:
+
+- The connection stays open
+- Both client and server can send messages at any time
+
+## 6. What is the difference between monolithic and microservices architectures??
+
+A `monolith` is: One single application where everything lives together.
+
+Characteristics
+
+- Single codebase
+- Single deployment
+- All features run in one process
+
+`Microservices` means:
+The system is split into many small, independent services, each responsible for one thing.
+
+Characteristics
+
+- Each service is its own app
+- Independent deployments
+- Services communicate over network (REST, gRPC, events)
+
+## 7. How does NodeJS handle memory management?
+
+Node.js doesn’t manage memory by itself.
+It relies on V8, the JavaScript engine (from Chrome), to do memory management.
+
+So when we say “Node.js memory management”, we really mean:
+
+How V8 allocates memory and garbage-collects it.
+
+Memory is mainly split into:
+
+- Stack
+- Heap
+
+**Stack**
+
+- Stores
+  - Function calls
+  - Local primitive values (number, boolean, etc.)
+- Managed automatically
+- Very fast
+- Small in size
+
+**Heap**
+
+- Stores:
+  - Objects
+  - Arrays
+- Functions
+- Larger and dynamic
+- This is where most memory issues happen
+
+### Garbage Collection (GC)
+
+Node.js uses automatic garbage collection.
+
+What GC does
+
+- Tracks which objects are still reachable
+- Frees memory for objects that are no longer referenced
+
+### How V8 decides what to delete
+
+V8 uses a mark-and-sweep algorithm:
+
+- Mark all reachable objects
+- Sweep (delete) everything unmarked
