@@ -199,3 +199,9 @@ null == undefined; // true
 0 === false; // false
 null === undefined; // false
 ```
+
+## 8. What is Proxy and Reflect in JavaScript?
+
+A `Proxy` is an object that lets you intercept and customize operations performed on another object.
+
+`Reflect` is a built-in object that provides methods for performing default object operations.
