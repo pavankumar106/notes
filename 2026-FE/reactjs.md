@@ -123,3 +123,57 @@ const items = ["Apple", "Banana", "Orange"];
 
 items.map((item, index) => <li key={item}>{item}</li>);
 ```
+
+## 5. What problems does React face in large applications?
+
+- As the app grows, figuring out where state should live becomes messy.
+- Large component trees + shared state = unexpected re-renders.
+- Components start clean… then slowly turn into god (too large) components.
+- Large React apps attract dependencies like magnets.
+- Testing Complexity
+- Initial load gets heavy, but splitting code introduces complexity.
+- Large React apps get deeply interconnected.
+
+## 6. How does the Virtual DOM work, and why is it useful?
+
+VDOM is A lightweight, in-memory JavaScript representation of the real DOM.
+
+In React terms:
+
+- Every render produces a tree of React elements (plain JS objects)
+- This tree describes what the UI should look like
+- React compares the new tree to the previous one → decides what to change
+- Think of it as a UI blueprint, not the UI itself.
+
+Why the Virtual DOM is useful
+
+- Performance
+- Declarative UI
+- Predictable rendering
+- Batching & Scheduling
+
+## 7. Can Hooks replace Redux? When yes, when no?
+
+Short answer: sometimes yes, often no.
+
+Hooks are not a state management solution. They are mechanisms to use state.
+
+- useState, useReducer → local state
+- useContext → dependency injection
+- Custom hooks → composition
+
+Redux solves a different problem:
+
+- Coordinating complex, shared, long-lived state across a large app.
+
+When Hooks CAN replace Redux
+
+- App-level state is small and stable
+- State is tightly scoped to a feature
+- You’re mostly dealing with server state
+
+When Hooks should NOT replace Redux
+
+- Many unrelated components need to READ + WRITE state
+- Complex update logic
+- Performance-sensitive global state
