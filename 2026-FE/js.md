@@ -205,3 +205,37 @@ null === undefined; // false
 A `Proxy` is an object that lets you intercept and customize operations performed on another object.
 
 `Reflect` is a built-in object that provides methods for performing default object operations.
+
+========================================
+
+Here are 20 JavaScript questions you should prepare for to break into top product-based companies (PBCs):
+
+𝟭. 𝗪𝗵𝗮𝘁 𝗶𝘀 𝗝𝘂𝘀𝘁-𝗜𝗻-𝗧𝗶𝗺𝗲 (𝗝𝗜𝗧) 𝗰𝗼𝗺𝗽𝗶𝗹𝗮𝘁𝗶𝗼𝗻 𝗮𝗻𝗱 𝗵𝗼𝘄 𝗱𝗼𝗲𝘀 𝗶𝘁 𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗲 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲?
+→ What are baseline vs optimizing compilers, and how does V8 use them?
+
+𝟮. 𝗛𝗼𝘄 𝗱𝗼 𝗵𝗶𝗱𝗱𝗲𝗻 𝗰𝗹𝗮𝘀𝘀𝗲𝘀 𝗮𝗻𝗱 𝗶𝗻𝗹𝗶𝗻𝗲 𝗰𝗮𝗰𝗵𝗶𝗻𝗴 𝗶𝗺𝗽𝗮𝗰𝘁 𝗮𝗽𝗽 𝘀𝗽𝗲𝗲𝗱?
+→ How can property access patterns affect engine optimizations?
+
+𝟯. 𝗪𝗵𝗮𝘁 𝗶𝘀 𝘁𝗵𝗲 𝗲𝘃𝗲𝗻𝘁 𝗹𝗼𝗼𝗽 𝗮𝗻𝗱 𝗵𝗼𝘄 𝗱𝗼 𝗺𝗶𝗰𝗿𝗼𝘁𝗮𝘀𝗸𝘀 𝘃𝘀 𝗺𝗮𝗰𝗿𝗼𝘁𝗮𝘀𝗸𝘀 𝗲𝘅𝗲𝗰𝘂𝘁𝗲?
+→ Why does Promise.then() run before setTimeout()?
+
+𝟰. 𝗛𝗼𝘄 𝗱𝗼 𝗰𝗹𝗼𝘀𝘂𝗿𝗲𝘀 𝘄𝗼𝗿𝗸 𝗮𝗻𝗱 𝗵𝗼𝘄 𝗰𝗮𝗻 𝘁𝗵𝗲𝘆 𝗹𝗲𝗮𝗸 𝗺𝗲𝗺𝗼𝗿𝘆?
+→ What real-world issues have you seen or debugged related to retained scope?
+
+𝟱. 𝗪𝗵𝗮𝘁 𝗶𝘀 𝘁𝗵𝗲 𝗧𝗲𝗺𝗽𝗼𝗿𝗮𝗹 𝗗𝗲𝗮𝗱 𝗭𝗼𝗻𝗲 (𝗧𝗗𝗭)?
+→ Why does let behave differently than var during hoisting?
+
+𝟲. 𝗛𝗼𝘄 𝗱𝗼𝗲𝘀 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁 𝗺𝗮𝗻𝗮𝗴𝗲 𝗺𝗲𝗺𝗼𝗿𝘆 𝗶𝗻 𝗵𝗲𝗮𝗽 𝘃𝘀 𝘀𝘁𝗮𝗰𝗸?
+→ How do objects, functions, and primitives get allocated and cleaned up?
+
+𝟳. 𝗛𝗼𝘄 𝗱𝗼 𝗪𝗲𝗮𝗸𝗠𝗮𝗽 𝗮𝗻𝗱 𝗪𝗲𝗮𝗸𝗦𝗲𝘁 𝗵𝗲𝗹𝗽 𝗮𝘃𝗼𝗶𝗱 𝗺𝗲𝗺𝗼𝗿𝘆 𝗹𝗲𝗮𝗸𝘀?
+→ When would you use them over regular Maps or Sets?
+
+𝟴. 𝗛𝗼𝘄 𝗱𝗼𝗲𝘀 𝘁𝗵𝗲 𝘁𝗵𝗶𝘀 𝗸𝗲𝘆𝘄𝗼𝗿𝗱 𝗯𝗲𝗵𝗮𝘃𝗲 𝗶𝗻 𝗮𝗿𝗿𝗼𝘄 𝘃𝘀 𝗿𝗲𝗴𝘂𝗹𝗮𝗿 𝗳𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝘀?
+→ What issues does this cause in event handlers or class methods?
+
+𝟵. 𝗛𝗼𝘄 𝘄𝗼𝘂𝗹𝗱 𝘆𝗼𝘂 𝗶𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁 𝗮 𝗱𝗲𝗯𝗼𝘂𝗻𝗰𝗲 𝗼𝗿 𝘁𝗵𝗿𝗼𝘁𝘁𝗹𝗲 𝗳𝘂𝗻𝗰𝘁𝗶𝗼𝗻 𝗳𝗿𝗼𝗺 𝘀𝗰𝗿𝗮𝘁𝗰𝗵?
+→ Where have you applied this in a real-world project?
+
+𝟭𝟬. 𝗪𝗵𝗮𝘁 𝗮𝗿𝗲 𝗧𝘆𝗽𝗲𝗱 𝗔𝗿𝗿𝗮𝘆𝘀 𝗮𝗻𝗱 𝗵𝗼𝘄 𝗱𝗼 𝘁𝗵𝗲𝘆 𝗲𝗻𝗵𝗮𝗻𝗰𝗲 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲?
+→ How are they different from normal arrays, and when would you use them?
