@@ -232,3 +232,7 @@ Azure SQL Database is a fully managed relational database service provided by Mi
 In simple terms:
 
 It is a SQL Server database in the cloud, where Microsoft manages the infrastructure, backups, updates, and high availability.
+
+# What is a Distributed System?
+
+A distributed system is a group of computers connected through a network that cooperate to accomplish a common task.
